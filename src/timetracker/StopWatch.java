@@ -1,7 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Retirado de:
+ * https://github.com/jsquared21/Intro-to-Java-Programming/blob/master/Exercise_16/Exercise_16_20/StopWatch.java
  */
 package timetracker;
 
