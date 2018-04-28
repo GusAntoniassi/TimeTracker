@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="163.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timetracker.TelaController">
+   <children>
+      <BorderPane fx:id="pane" prefHeight="64.0" prefWidth="230.0" />
+      <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="230.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#onClickPlay" text="Play" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#onClickReset" text="Reset">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#onClickPause" text="Pause" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <Separator prefWidth="200.0" />
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#onClickClipboard" text="Copiar p/ clipboard">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
